@@ -1,0 +1,75 @@
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font font-family: 'roboto', sans-serif;
+        }
+        
+        header {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            z-index: 10;
+            padding: 20px 15px;
+        }
+        
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        header.logo a {
+            font-size: 30px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 700
+        }
+        
+        header .logo a span {
+            color: #c11325;
+        }
+        
+        header .nav ul li {
+            display: block;
+            margin-bottom: 10px
+        }
+        
+        header.nav ul li a {
+            text: text-decoration: none;
+            font-size: 30px;
+            font - weight: 400;
+            color: #ffffff;
+            position: relative;
+        }
+        
+        header .ham-burger {
+            display: inline-block;
+            position: relative;
+            z-index: 100;
+        }
+        
+        header .ham-burger span {
+            height: 3px;
+            margin-bottom: 8px;
+            display: block;
+            background-color: #ffffff;
+            width: 30px;
+        }
+        
+        .container {
+            max-width: 1170px;
+            margin: auto;
+        }
+        
+        .home {
+            height: 100vh;
+            background-image: url('../imagc:/home.jpg');
+            background-size: cover;
+        }
